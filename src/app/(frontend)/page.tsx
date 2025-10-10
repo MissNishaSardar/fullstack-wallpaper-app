@@ -10,9 +10,7 @@ const page = () => {
 	return (
 		<>
 			<section className="grid h-[80dvh] place-items-center">
-				<AuroraText className="text-5xl font-bold">
-					Nextjs Starter Template
-				</AuroraText>
+				<AuroraText className="text-5xl font-bold">Frontend</AuroraText>
 			</section>
 		</>
 	);

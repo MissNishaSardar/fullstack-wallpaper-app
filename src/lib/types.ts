@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
 
-export type RootLayoutProps = Readonly<{
+export type PageLayoutProps = Readonly<{
 	children: ReactNode;
 }>;

@@ -1,13 +1,13 @@
 import Link from "next/link";
 import ThemeToggleButton from "../customui/ThemeToggleButton";
 
-const Header = () => {
+const DashboardHeader = () => {
 	return (
 		<header
 			className="border-b shadow"
 			aria-label="app-header">
 			<div className="container mx-auto flex items-center justify-between px-6 py-3">
-				<Link href={"/"}>
+				<Link href={"/dashboard"}>
 					<h1
 						className="text-2xl font-semibold"
 						aria-label="App Name">
@@ -16,7 +16,7 @@ const Header = () => {
 				</Link>
 
 				<nav className="flex items-center gap-4">
-					<Link href={"/"}>Home</Link>
+					<Link href={"/dashboard"}>Dashboard</Link>
 
 					<ThemeToggleButton />
 				</nav>
@@ -25,4 +25,4 @@ const Header = () => {
 	);
 };
 
-export default Header;
+export default DashboardHeader;
